@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;800&family=Montserrat:wght@300;400;500;600;800&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/g.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+.form-box {
+  width: 500px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 12% auto;
+  padding: 50px 0;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.input-box {
+  margin: 30px;
+  width: 80%;
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.input-box input {
+  width: 90%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+::placeholder {
+  color: #ccc;
+}
+.fa {
+  margin-right: 10px;
+}
+.eye {
+  position: absolute;
+}
+
+#hide1 {
+  display: none;
+}
+
+.login-btn {
+  margin: 40px auto 20px;
+  width: 50%;
+  display: block;
+  outline: none;
+  padding: 10px 0;
+
+  cursor: pointer;
+  background: transparent;
+  background-color: #2980b9;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: 1s;
+}
+
+.login-btn:hover {
+    background-color: white;
+}
+
+
+.register-btn {
+  margin: 40px auto 20px;
+  width: 50%;
+  display: block;
+  outline: none;
+  padding: 10px 0;
+
+  cursor: pointer;
+  background: transparent;
+  background-color: #127c3e;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: 1s;
+}
+.register-btn:hover {
+    background-color: white;
+}
+
+.checkbox {
+  margin: 30px;
+  width: 80%;
+  border-bottom: 1px auto solid;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
